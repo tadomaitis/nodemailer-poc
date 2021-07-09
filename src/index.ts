@@ -60,7 +60,7 @@ const sendEmail = async (emailOptions: EmailOptions) => {
 sendEmail({
   subject: 'test',
   text: 'I am sending an email from nodemailer!',
-  to: 't.d.adomaitis@gmail.com',
+  to: 'some_random_mail@mail.com',
   html: '<h1>Yeah, science! Bitch!</h1>',
   from: EMAIL
 })
